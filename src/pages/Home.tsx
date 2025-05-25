@@ -51,7 +51,7 @@ const Home = () => {
                   Get Started <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-blue-600 text-lg px-8 py-3">
+              <Button asChild variant="outline" size="lg" className="bg-white text-blue-600 hover:bg-blue-50 text-lg px-8 py-3">
                 <Link to="/portfolio">View Portfolio</Link>
               </Button>
             </div>
@@ -170,7 +170,7 @@ const Home = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+            <Button asChild size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-blue-50 text-lg px-8 py-3">
               <Link to="/services">
                 Learn More About Our Services <ArrowRight className="ml-2 h-5 w-5" />
               </Link>

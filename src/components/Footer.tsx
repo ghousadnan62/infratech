@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Linkedin, Facebook } from 'lucide-react';
 
@@ -10,9 +9,9 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <img 
-              src="/lovable-uploads/c8902c12-8420-4005-8cfd-f9a343563d56.png" 
+              src="lovable-uploads/c8902c12-8420-4005-8cfd-f9a343563d56.png" 
               alt="InfraTech Global Solutions" 
-              className="h-12 w-auto mb-4 brightness-0 invert"
+              className="h-12 w-auto"
             />
             <p className="text-gray-300 mb-4">
               Professional civil engineering design consultancy providing comprehensive 
@@ -59,7 +58,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 InfraTech Global Solutions LLC. All rights reserved.
+              © 2025 InfraTech Global Solutions LLC. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
