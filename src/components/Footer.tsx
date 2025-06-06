@@ -19,7 +19,8 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <Linkedin className="h-5 w-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" />
-              <Facebook className="h-5 w-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" />
+              {/* <Facebook className="h-5 w-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" /> */}
+            
             </div>
           </div>
 
@@ -45,29 +46,21 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-blue-400" />
-                <span className="text-gray-300">info@infratechgs.com</span>
+                <span className="text-gray-300">info@infratechglobalsolutions.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-4 w-4 mr-2 mt-1 text-blue-400" />
-                <span className="text-gray-300">123 Engineering Plaza<br />Suite 100<br />City, State 12345</span>
+                <span className="text-gray-300">Minneapolis, Minnesota <br /> <br /> </span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
+          <div className="flex justify-center items-center">
+            <p className="text-gray-400 text-sm text-center">
               © 2025 InfraTech Global Solutions LLC. All rights reserved.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Privacy Policy
-              </Link>
-              <Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Terms of Service
-              </Link>
-            </div>
           </div>
         </div>
       </div>

@@ -1,20 +1,19 @@
-
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Award, Users, Clock, Building2 } from 'lucide-react';
+import { ArrowRight, CheckCircle, Award, Users, Clock, Building2,Sun } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Home = () => {
   const features = [
     {
-      icon: Building2,
-      title: "Detailed Design Package",
+      icon: Sun,
+      title: "Photovoltaic Project Expertise",
       description: "Complete engineered drawing packages suitable for permitting, procurement, and construction.",
     },
     {
       icon: CheckCircle,
       title: "Licensed Professional Engineers",
-      description: "All drawings and calculations sealed by licensed Professional Engineers for your assurance.",
+      description: "PE-sealed drawings available in Colorado, Illinois, Indiana, Michigan, Maine, Minnesota, and Wisconsin.",
     },
     {
       icon: Clock,
@@ -38,12 +37,12 @@ const Home = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-              Engineering Excellence for
-              <span className="block text-blue-200">Infrastructure Solutions</span>
+              Delivering Engineering Excellence for 
+              <span className="block text-blue-200">Solar Energy Projects</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto animate-fade-in">
-              Professional civil engineering design consultancy providing comprehensive 
-              solutions from conceptual design to construction support.
+              Specialized civil engineering design consultancy delivering comprehensive solutions for utility-scale and 
+              community solar projects from conceptual planning to construction support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
               <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-blue-50 text-lg px-8 py-3">
@@ -83,8 +82,8 @@ const Home = () => {
               Why Choose InfraTech Global Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We deliver comprehensive civil engineering solutions with precision, 
-              expertise, and unwavering commitment to excellence.
+              We provide comprehensive civil engineering solutions, combining technical precision,
+               deep expertise, and an unwavering commitment to excellence in every project.
             </p>
           </div>
 
@@ -117,7 +116,7 @@ const Home = () => {
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               From initial concepts to final construction, we provide end-to-end 
-              engineering solutions for your infrastructure projects.
+              civil engineering solutions for your solar projects.
             </p>
           </div>
 
@@ -128,19 +127,21 @@ const Home = () => {
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-blue-200 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <strong>Conceptual Design (30%)</strong> - Initial layout planning and stormwater modeling
+                    <strong>Conceptual Design (30%)</strong> - Initial access and layout planning, fence design, 
+                    topography analysis and stormwater management
                   </div>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-blue-200 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <strong>Detailed Design (90%)</strong> - Comprehensive site grading and access road design
+                    <strong>Detailed Design (90%)</strong> - Comprehensive site grading, access road design, 
+                    erosion control BMPs implementation, culvert design, dry pond design
                   </div>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-blue-200 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <strong>Construction Ready (100%)</strong> - Permit-ready drawings sealed by licensed PE
+                    <strong>Construction Ready (100%)</strong> - Sealed by licensed PE ready for construction drawings
                   </div>
                 </li>
               </ul>
@@ -188,7 +189,7 @@ const Home = () => {
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Get in touch with our team of licensed Professional Engineers 
-            and let's discuss how we can bring your infrastructure vision to life.
+            and let's discuss how we can bring your solar project to life.
           </p>
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3">
             <Link to="/contact">
@@ -197,6 +198,7 @@ const Home = () => {
           </Button>
         </div>
       </section>
+
     </div>
   );
 };
