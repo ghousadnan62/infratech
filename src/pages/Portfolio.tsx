@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { MapPin, Calendar, Users, Award } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -11,14 +10,14 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "Solar Farm Infrastructure Development",
+      title: "Solar Farm Civil Design",
       category: "renewable",
-      location: "Texas, USA",
-      year: "2023",
+      location: "Illinois, USA",
+      year: "2025",
       description: "Complete civil engineering design for a 150MW solar installation including access roads, drainage systems, and utility infrastructure.",
       scope: ["Site Planning", "Grading Design", "Drainage Systems", "Access Roads", "Utility Coordination"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 2,
@@ -29,7 +28,7 @@ const Portfolio = () => {
       description: "Comprehensive site design for manufacturing facility including stormwater management, fire access roads, and loading dock areas.",
       scope: ["Site Layout", "Fire Access Design", "Stormwater Management", "Utility Infrastructure", "Erosion Control"],
       status: "In Progress",
-      image: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 3,
@@ -40,7 +39,7 @@ const Portfolio = () => {
       description: "Multi-phase residential development with complete utilities, roadways, and stormwater detention systems.",
       scope: ["Subdivision Design", "Utility Planning", "Road Networks", "Detention Ponds", "Landscape Design"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 4,
@@ -51,7 +50,7 @@ const Portfolio = () => {
       description: "Shopping center development with parking design, traffic flow optimization, and utility coordination.",
       scope: ["Parking Design", "Traffic Engineering", "Site Utilities", "ADA Compliance", "Landscaping"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 5,
@@ -62,7 +61,7 @@ const Portfolio = () => {
       description: "Heavy-duty access road design for wind turbine installation and maintenance, including bridge and culvert design.",
       scope: ["Heavy Load Roads", "Bridge Design", "Culvert Systems", "Soil Stabilization", "Environmental Protection"],
       status: "In Progress",
-      image: "https://images.unsplash.com/photo-1487252665478-49b61b47f302?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 6,
@@ -73,7 +72,7 @@ const Portfolio = () => {
       description: "Site development for water treatment facility including specialized foundations, utility connections, and environmental controls.",
       scope: ["Foundation Design", "Utility Integration", "Environmental Controls", "Access Systems", "Safety Features"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
     }
   ];
 
