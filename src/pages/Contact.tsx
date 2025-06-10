@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -59,14 +58,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: "info@infratechgs.com",
+      details: "info@infratechglobalsolutions.com",
       description: "Send us your project details"
     },
     {
       icon: MapPin,
       title: "Office",
-      details: "123 Engineering Plaza, Suite 100",
-      description: "City, State 12345"
+      details: "Minneapolis, MN",
+      // description: "City, State 12345"
     },
     {
       icon: Clock,
@@ -77,16 +76,16 @@ const Contact = () => {
   ];
 
   const services = [
-    "Conceptual Design",
-    "Detailed Engineering", 
-    "Construction Documents",
-    "Permitting Support",
-    "Site Planning",
-    "Stormwater Management",
+    "Site plan",
+    "Grading Design", 
+    "Erosion Control Design",
+    "Drainage Design",
+    "Stormwater Design",
+    "Stormwater Modeling",
     "Access Road Design",
-    "Utility Coordination",
-    "Construction Administration",
-    "As-Built Documentation"
+    "Fence Design",
+    "As-Built Documentation",
+    "Stormwater Pollution Prevention Plans (SWPPP)"
   ];
 
   return (
@@ -99,7 +98,7 @@ const Contact = () => {
               Get In Touch
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
-              Ready to discuss your infrastructure project? Let's connect and explore how we can help.
+              Ready to discuss your PV Solar project? Let's connect and explore how we can help.
             </p>
           </div>
         </div>
@@ -118,7 +117,7 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
                     {info.title}
                   </h3>
-                  <p className="font-medium text-gray-900 mb-1">
+                  <p className="font-medium text-gray-900 mb-1 flex justify-center">
                     {info.details}
                   </p>
                   <p className="text-sm text-gray-600">
@@ -209,7 +208,7 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-
+{/* 
                 <div>
                   <label htmlFor="projectType" className="block text-sm font-medium text-gray-700 mb-2">
                     Project Type
@@ -229,7 +228,7 @@ const Contact = () => {
                     <option value="municipal">Municipal Infrastructure</option>
                     <option value="other">Other</option>
                   </select>
-                </div>
+                </div> */}
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
@@ -274,7 +273,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">
-                    We provide comprehensive civil engineering solutions including:
+                    We provide comprehensive PV civil engineering solutions including:
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {services.map((service, index) => (
