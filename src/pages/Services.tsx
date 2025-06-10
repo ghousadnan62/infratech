@@ -7,20 +7,28 @@ import { Link } from 'react-router-dom';
 const Services = () => {
   const detailedServices = [
     {
+      title: "Cover Page",
+      description: "Project overview, vicinity location, and sheet index andquantities table"
+    },
+    {
+      title: "General Notes",
+      description: "Project-specific design criteria, assumptions, design implementation strategies, and constraints"
+    },
+    {
       title: "Existing Conditions Plan",
-      description: "Comprehensive survey and documentation of current site conditions"
+      description: "Inclusion of survey details into existing site conditions plan including topography, structures, and utilities"
     },
     {
-      title: "General Site Plan", 
-      description: "Overall project layout showing proposed infrastructure placement"
+      title: "Site Plan", 
+      description: "Overall project layout showing proposed location of tracker layout, fence, access road, equipment pad and other site features"
     },
     {
-      title: "Grading, Drainage and Erosion Control Plan",
-      description: "Detailed earthwork and water management solutions"
+      title: "Grading plan and Erosion Control Plan",
+  description: "The grading plan showing existing and proposed contours, highlighting elevation differences between them. Implementation of erosion control devices to manage soil stability and prevent runoff issues, ensuring effective site development and environmental compliance."
     },
     {
       title: "Access Road Plan & Profile Sheet",
-      description: "Complete roadway design with elevations and cross-sections"
+      description: "Complete roadway design with profile and cross section design as per location AHJs requirements and site conditions"
     },
     {
       title: "Erosion Control Notes and Details",
@@ -95,7 +103,7 @@ const Services = () => {
           </div>
 
           {/* Process Steps */}
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <Card className="text-center h-full">
                 <CardHeader>
@@ -184,7 +192,7 @@ const Services = () => {
                 </CardContent>
               </Card>
             </div>
-          </div>
+          </div> */}
 
           {/* Detailed Service List */}
           <div className="bg-gray-50 rounded-lg p-8">
@@ -214,8 +222,8 @@ const Services = () => {
               General Consulting Support
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Comprehensive consulting services provided on a Time and Expense basis 
-              to support your project from design through construction completion.
+              Offering comprehensive consulting services to support your project from design 
+              through construction completion.
             </p>
           </div>
 
@@ -233,15 +241,15 @@ const Services = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <h3 className="text-xl font-semibold mb-4">Additional Services Include:</h3>
             <ul className="text-blue-100 space-y-2 max-w-2xl mx-auto">
-              <li>• As-Recorded drawings preparation</li>
+              <li>• As-Built drawings preparation</li>
               <li>• Construction administration support</li>
               <li>• Regulatory compliance assistance</li>
               <li>• Project closeout documentation</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -278,14 +286,14 @@ const Services = () => {
                   3
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Final Documentation</h3>
-                <p className="text-gray-600 text-sm">PE sealed drawings and permit submission</p>
+                <p className="text-gray-600 text-sm">PE sealed drawings</p>
               </div>
               <div className="text-center">
                 <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">
                   4
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Ongoing Support</h3>
-                <p className="text-gray-600 text-sm">Construction phase assistance and closeout</p>
+                <p className="text-gray-600 text-sm">Construction phase assistance</p>
               </div>
             </div>
           </div>
@@ -299,7 +307,7 @@ const Services = () => {
             Ready to Discuss Your Project?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Contact our team to learn how we can support your infrastructure development needs.
+            Contact our team to learn how we can support your PV civil design needs.
           </p>
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
             <Link to="/contact">Get Started Today</Link>
