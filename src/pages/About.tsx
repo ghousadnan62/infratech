@@ -17,12 +17,12 @@ const About = () => {
     {
       icon: Users,
       title: "Collaboration",
-      description: "We work closely with clients, contractors, and regulatory bodies to ensure seamless project execution from concept to completion."
+      description: "We work closely with clients to ensure seamless project execution from concept to completion."
     },
     {
       icon: Target,
       title: "Precision",
-      description: "Every calculation, drawing, and recommendation is meticulously crafted to deliver optimal outcomes for your infrastructure needs."
+      description: "Every calculation, drawing, and recommendation is meticulously crafted to deliver optimal outcomes for your project needs."
     }
   ];
 
@@ -36,7 +36,7 @@ const About = () => {
               About InfraTech Global Solutions
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
-              Your trusted partner in civil engineering design and infrastructure solutions
+              Your trusted partner in civil design of solar energy projects.
             </p>
           </div>
         </div>
@@ -51,20 +51,19 @@ const About = () => {
                 Engineering the Future of Infrastructure
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                InfraTech Global Solutions LLC is a premier civil engineering design consultancy 
-                dedicated to delivering innovative, sustainable, and cost-effective infrastructure 
-                solutions. Our team of licensed Professional Engineers brings decades of combined 
-                experience to every project.
+                InfraTech Global Solutions LLC is a premier civil engineering consultancy specializing in 
+                solar energy and sustainable infrastructure.  
+                 
+                
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                From conceptual design through construction support, we provide comprehensive 
-                engineering services that ensure your projects are delivered on time, within 
-                budget, and to the highest quality standards.
+                Our team of licensed Professional Engineers brings decades of combined experience 
+                in civil engineering design and construction support.
               </p>
               <p className="text-lg text-gray-600">
-                Our expertise spans across various infrastructure sectors, and we pride ourselves 
-                on our ability to navigate complex regulatory requirements while delivering 
-                practical, implementable solutions.
+                From feasibility 
+                studies to final commissioning, we provide PV civil design services 
+                that keep projects on schedule, within budget, and designed to the highest standards.
               </p>
             </div>
             <div className="relative">
@@ -72,7 +71,7 @@ const About = () => {
                 <div className="text-center">
                   <Award className="h-24 w-24 text-blue-600 mx-auto mb-4" />
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Licensed Excellence</h3>
-                  <p className="text-gray-600">All designs sealed by Professional Engineers</p>
+                  <p className="text-gray-600"> Issued for construction drawings sealed by Professional Engineers</p>
                 </div>
               </div>
             </div>
@@ -133,8 +132,10 @@ const About = () => {
                 Conceptual Design (30%)
               </h3>
               <p className="text-gray-600">
-                We begin with comprehensive site analysis, creating initial layouts and 
-                completing stormwater modeling to establish project feasibility.
+                We integrate survey data—covering existing conditions, parcel details, 
+                nearby structures, and topography—into civil design. Using this, we plan roads, 
+                analyze terrain, finalize layouts, design fencing, complete site plans, 
+                implement erosion control, landscaping plan and, if needed, add stormwater ponds.
               </p>
             </div>
 
@@ -146,8 +147,9 @@ const About = () => {
                 Detailed Design (90%)
               </h3>
               <p className="text-gray-600">
-                Based on approved concepts, we develop comprehensive drawings including 
-                grading plans, drainage systems, and access road designs.
+                Expanding on the approved 30% design, we develop detailed drawings with refined grading plans, 
+                drainage systems, and access road designs, ensuring seamless integration with site conditions and 
+                a strong foundation for construction.
               </p>
             </div>
 
@@ -159,8 +161,8 @@ const About = () => {
                 Construction Ready (100%)
               </h3>
               <p className="text-gray-600">
-                Final permit-ready drawings sealed by licensed Professional Engineers, 
-                complete with all necessary documentation for construction.
+                Building on previous designs, we deliver construction-ready, engineer-sealed drawings with detailed site plans, 
+                grading plan, and road design, and landscaping plan ensuring and smooth construction.
               </p>
             </div>
           </div>
@@ -175,7 +177,7 @@ const About = () => {
           </h2>
           <p className="text-xl text-blue-100 mb-12 max-w-3xl mx-auto">
             Our team of licensed Professional Engineers and design specialists 
-            brings extensive experience across various infrastructure projects.
+            brings extensive experience in PV civil design projects.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -188,7 +190,7 @@ const About = () => {
             <div className="text-center">
               <div className="bg-white bg-opacity-10 rounded-lg p-8">
                 <h3 className="text-2xl font-bold mb-2">PE</h3>
-                <p className="text-blue-100">Licensed Professional Engineers</p>
+                <p className="text-blue-100"> Professional Engineers</p>
               </div>
             </div>
             <div className="text-center">
