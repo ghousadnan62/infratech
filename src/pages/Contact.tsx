@@ -63,25 +63,25 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
-      title: "Phone",
+      //title: "Phone",
       details: "(555) 123-4567",
       description: "Call us for immediate assistance"
     },
     {
       icon: Mail,
-      title: "Email",
+      //title: "Email",
       details: "info@infratechglobalsolutions.com",
       description: "Send us your project details"
     },
     {
       icon: MapPin,
-      title: "Office",
+      //title: "Office",
       details: "Minneapolis, MN",
       // description: "City, State 12345"
     },
     {
       icon: Clock,
-      title: "Hours",
+      //title: "Hours",
       details: "Mon - Fri: 8:00 AM - 6:00 PM",
       description: "Emergency support available 24/7"
     }
