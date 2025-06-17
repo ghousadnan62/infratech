@@ -6,6 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -22,9 +23,14 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
+
+    emailjs.send(
+      'service_r4i2gmf',    // e.g., service_xxxxxx
+      'template_sw3xdev',   // e.g., template_xxxxxx
+      formData,             // your form data object
+      'VcnIl-keWR4JzNbWx'     // e.g., u_xxxxxxxxxxxxxxxxx
+    )
+    .then(() => {
       toast({
         title: "Message Sent Successfully!",
         description: "We'll get back to you within 24 hours.",
@@ -38,7 +44,13 @@ const Contact = () => {
         message: ''
       });
       setIsSubmitting(false);
-    }, 1000);
+    }, (error) => {
+      toast({
+        title: "Error",
+        description: "There was a problem sending your message. Please try again.",
+      });
+      setIsSubmitting(false);
+    });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
