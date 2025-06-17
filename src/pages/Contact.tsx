@@ -6,6 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -22,9 +23,14 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
+
+    emailjs.send(
+      'service_r4i2gmf',    // e.g., service_xxxxxx
+      'template_sw3xdev',   // e.g., template_xxxxxx
+      formData,             // your form data object
+      'VcnIl-keWR4JzNbWx'     // e.g., u_xxxxxxxxxxxxxxxxx
+    )
+    .then(() => {
       toast({
         title: "Message Sent Successfully!",
         description: "We'll get back to you within 24 hours.",
@@ -38,7 +44,13 @@ const Contact = () => {
         message: ''
       });
       setIsSubmitting(false);
-    }, 1000);
+    }, (error) => {
+      toast({
+        title: "Error",
+        description: "There was a problem sending your message. Please try again.",
+      });
+      setIsSubmitting(false);
+    });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -51,25 +63,25 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
-      title: "Phone",
+      //title: "Phone",
       details: "(555) 123-4567",
       description: "Call us for immediate assistance"
     },
     {
       icon: Mail,
-      title: "Email",
+      //title: "Email",
       details: "info@infratechglobalsolutions.com",
       description: "Send us your project details"
     },
     {
       icon: MapPin,
-      title: "Office",
+      //title: "Office",
       details: "Minneapolis, MN",
       // description: "City, State 12345"
     },
     {
       icon: Clock,
-      title: "Hours",
+      //title: "Hours",
       details: "Mon - Fri: 8:00 AM - 6:00 PM",
       description: "Emergency support available 24/7"
     }

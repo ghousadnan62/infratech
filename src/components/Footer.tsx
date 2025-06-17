@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Linkedin, Facebook } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -18,9 +18,30 @@ const Footer = () => {
               infrastructure solutions from conceptual design to construction support.
             </p>
             <div className="flex space-x-4">
-              <Linkedin className="h-5 w-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" />
-              {/* <Facebook className="h-5 w-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" /> */}
-            
+              <a
+                href="https://www.linkedin.com/company/infratech-global-solutions/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-5 w-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" />
+              </a>
+              <a
+                href="https://www.facebook.com/share/1Avs2jAdbj/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" />
+              </a>
+              <a
+                href="https://www.instagram.com/igs_consultant/?igsh=b2RsMHZjeml6c3Rl#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5 text-gray-400 hover:text-pink-400 cursor-pointer transition-colors" />
+              </a>
             </div>
           </div>
 
