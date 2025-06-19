@@ -127,7 +127,7 @@ const Contact = () => {
                     <info.icon className="h-6 w-6" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    {info.title}
+                    {/* {info.title} */}
                   </h3>
                   <p className="font-medium text-gray-900 mb-1 flex justify-center">
                     {info.details}
