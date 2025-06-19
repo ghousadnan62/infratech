@@ -3,6 +3,7 @@ import { MapPin, Calendar, Users, Award } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -268,11 +269,15 @@ const Portfolio = () => {
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Let's discuss how our proven track record can benefit your solar development.
           </p>
-          <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
-            <a href="/contact">Contact Us Today</a>
-          </Button>
+          <Link to="/contact">
+          <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
+            Contact Us Today
+          </button>
+        </Link>
         </div>
       </section>
+
+      
     </div>
   );
 };
