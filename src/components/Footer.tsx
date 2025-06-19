@@ -15,7 +15,7 @@ const Footer = () => {
             />
             <p className="text-gray-300 mb-4">
               Professional civil engineering design consultancy providing comprehensive 
-              infrastructure solutions from conceptual design to construction support.
+              solar civil design solutions from conceptual design to construction support.
             </p>
             <div className="flex space-x-4">
               <a
