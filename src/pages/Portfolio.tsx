@@ -10,69 +10,69 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "Solar Farm Civil Design",
+      title: "North Branch Solar",
       category: "renewable",
-      location: "Illinois, USA",
-      year: "2025",
-      description: "Complete civil engineering design for a 150MW solar installation including access roads, drainage systems, and utility infrastructure.",
-      scope: ["Site Planning", "Grading Design", "Drainage Systems", "Access Roads", "Utility Coordination"],
+      location: "Minnesota, USA",
+      year: "2023",
+      description: "Complete civil engineering design for a 1 MW solar installation including site grading, landscaping, pond design and access roads.",
+      scope: ["Site Planning", "Grading Design", "Drainage Systems", "Access Roads", "Utility Coordination", "Environmental Compliance", "Permitting Support"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+      image: "/public/lovable-uploads/caroline 2.jpg"
     },
     {
       id: 2,
-      title: "Industrial Complex Site Development",
-      category: "industrial",
-      location: "California, USA",
-      year: "2023",
-      description: "Comprehensive site design for manufacturing facility including stormwater management, fire access roads, and loading dock areas.",
-      scope: ["Site Layout", "Fire Access Design", "Stormwater Management", "Utility Infrastructure", "Erosion Control"],
-      status: "In Progress",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+      title: "Cold Springs Solar Facility",
+      category: "renewable",
+      location: "Minnesota, USA",
+      year: "2024",
+      description: "Full civil engineering services for a 1 MW solar installation.",
+      scope: ["Site Layout", "Grading Design", "Stormwater Management", "Detention Pond", "Erosion Control"],
+      status: "Completed",
+      image: "/public/lovable-uploads/Froehle 1.jpg"
     },
     {
       id: 3,
-      title: "Residential Subdivision Infrastructure",
-      category: "residential",
-      location: "Florida, USA",
-      year: "2022",
-      description: "Multi-phase residential development with complete utilities, roadways, and stormwater detention systems.",
-      scope: ["Subdivision Design", "Utility Planning", "Road Networks", "Detention Ponds", "Landscape Design"],
+      title: "Limestone Solar Garden",
+      category: "renewable",
+      location: "Maine, USA",
+      year: "2025",
+      description: "Civil engineering design for a 2.5 MW solar farm including site planning, grading design, environmental controls, and access roads.",
+      scope: ["Access Road Design", "Site Design", "Erosion Control BMP Implementation", "Culvert Design", "Landscape Design"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+      image: "/public/lovable-uploads/Huggard 2.jpg"
     },
     {
       id: 4,
-      title: "Commercial Retail Center",
-      category: "commercial",
-      location: "Arizona, USA",
-      year: "2022",
-      description: "Shopping center development with parking design, traffic flow optimization, and utility coordination.",
-      scope: ["Parking Design", "Traffic Engineering", "Site Utilities", "ADA Compliance", "Landscaping"],
+      title: "Patten Community Solar Farm",
+      category: "renewable",
+      location: "Maine, USA",
+      year: "2024",
+      description: "3 MW solar farm development including site grading, drainage design, and landscaping.",
+      scope: ["Site Planning", "Grading Design", "Drainage Systems", "Access Roads", "Utility Coordination", "Environmental Compliance"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+      image: "/public/lovable-uploads/Huggard 5.jpg"
     },
     {
       id: 5,
-      title: "Wind Farm Access Infrastructure",
+      title: "Gibbon Solar Facility",
       category: "renewable",
-      location: "Oklahoma, USA",
+      location: "Minnesota, USA",
       year: "2023",
-      description: "Heavy-duty access road design for wind turbine installation and maintenance, including bridge and culvert design.",
-      scope: ["Heavy Load Roads", "Bridge Design", "Culvert Systems", "Soil Stabilization", "Environmental Protection"],
-      status: "In Progress",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+      description: "Designed site grading, drainage, and landscaping for a 750 MW solar farm.",
+      scope: ["Access Road Design", "Site Design", "Erosion Control BMP Implementation", "Culvert Design", "Landscape Design"],
+      status: "Completed",
+      image: "/public/lovable-uploads/Legartad.jpg"
     },
     {
       id: 6,
-      title: "Municipal Water Treatment Facility",
-      category: "municipal",
-      location: "Nevada, USA",
-      year: "2021",
-      description: "Site development for water treatment facility including specialized foundations, utility connections, and environmental controls.",
+      title: "Clara City Solar Farm",
+      category: "renewable",
+      location: "Minnesota, USA",
+      year: "2025",
+      description: "1 MW solar power facility with complete civil engineering  including site grading, drainage, and landscaping.",
       scope: ["Foundation Design", "Utility Integration", "Environmental Controls", "Access Systems", "Safety Features"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+      image: "/public/lovable-uploads/meyer farms 1.jpg"
     }
   ];
 
@@ -90,9 +90,9 @@ const Portfolio = () => {
     : projects.filter(project => project.category === activeFilter);
 
   const stats = [
-    { icon: Award, number: "100+", label: "Projects Completed" },
-    { icon: Users, number: "50+", label: "Satisfied Clients" },
-    { icon: MapPin, number: "25+", label: "States Served" },
+    { icon: Award, number: "50+", label: "Projects Completed" },
+    { icon: Users, number: "20+", label: "Satisfied Clients" },
+    { icon: MapPin, number: "3+", label: "States Served" },
     { icon: Calendar, number: "15+", label: "Years Experience" }
   ];
 
@@ -106,7 +106,7 @@ const Portfolio = () => {
               Our Project Portfolio
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
-              Showcasing successful infrastructure projects across diverse sectors
+              Showcasing successful solar energy projects
             </p>
           </div>
         </div>
@@ -131,7 +131,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Filter Section */}
+      {/* Filter Section
       <section className="py-8 bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-2">
@@ -151,7 +151,8 @@ const Portfolio = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
+
 
       {/* Projects Grid */}
       <section className="py-20">
@@ -217,7 +218,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Capabilities Section */}
+      {/* Capabilities Section
       <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -256,7 +257,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gray-900 text-white">
@@ -265,7 +266,7 @@ const Portfolio = () => {
             Ready to Start Your Next Project?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let's discuss how our proven track record can benefit your infrastructure development.
+            Let's discuss how our proven track record can benefit your solar development.
           </p>
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
             <a href="/contact">Contact Us Today</a>
