@@ -18,7 +18,7 @@ const Portfolio = () => {
       description: "Complete civil engineering design for a 1 MW solar installation including site grading, landscaping, pond design and access roads.",
       scope: ["Site Planning", "Grading Design", "Drainage Systems", "Access Roads", "Utility Coordination", "Environmental Compliance", "Permitting Support"],
       status: "Completed",
-      image: "https://drive.google.com/file/d/1tfsoI-7eEnlhmMyxO4yA-qMjp8_16sNp/view?usp=sharing"
+      image: "https://drive.google.com/uc?export=view&id=1tfsoI-7eEnlhmMyxO4yA-qMjp8_16sNp"
     },
     {
       id: 2,
