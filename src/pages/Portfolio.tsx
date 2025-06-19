@@ -18,7 +18,7 @@ const Portfolio = () => {
       description: "Complete civil engineering design for a 1 MW solar installation including site grading, landscaping, pond design and access roads.",
       scope: ["Site Planning", "Grading Design", "Drainage Systems", "Access Roads", "Utility Coordination", "Environmental Compliance", "Permitting Support"],
       status: "Completed",
-      image: "/public/lovable-uploads/caroline 2.jpg"
+      image: "https://drive.google.com/file/d/1tfsoI-7eEnlhmMyxO4yA-qMjp8_16sNp/view?usp=sharing"
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const Portfolio = () => {
       description: "Full civil engineering services for a 1 MW solar installation.",
       scope: ["Site Layout", "Grading Design", "Stormwater Management", "Detention Pond", "Erosion Control"],
       status: "Completed",
-      image: "/public/lovable-uploads/Froehle 1.jpg"
+      image: "https://drive.google.com/file/d/1CjWKv4DLp-lt6Yi9yw9lQOoOBZTCOmQN/view?usp=sharing"
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const Portfolio = () => {
       description: "Civil engineering design for a 2.5 MW solar farm including site planning, grading design, environmental controls, and access roads.",
       scope: ["Access Road Design", "Site Design", "Erosion Control BMP Implementation", "Culvert Design", "Landscape Design"],
       status: "Completed",
-      image: "/public/lovable-uploads/Huggard 2.jpg"
+      image: "https://drive.google.com/file/d/1M2V3afyLSQaKfc9ZCfz8KOlxteMQ3dcf/view?usp=sharing"
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ const Portfolio = () => {
       description: "3 MW solar farm development including site grading, drainage design, and landscaping.",
       scope: ["Site Planning", "Grading Design", "Drainage Systems", "Access Roads", "Utility Coordination", "Environmental Compliance"],
       status: "Completed",
-      image: "/public/lovable-uploads/Huggard 5.jpg"
+      image:  "https://drive.google.com/file/d/12-5XRMLSWZ1vtDZEBvzlMHGQdAu9_ObH/view?usp=sharing"
     },
     {
       id: 5,
@@ -62,7 +62,7 @@ const Portfolio = () => {
       description: "Designed site grading, drainage, and landscaping for a 750 MW solar farm.",
       scope: ["Access Road Design", "Site Design", "Erosion Control BMP Implementation", "Culvert Design", "Landscape Design"],
       status: "Completed",
-      image: "/public/lovable-uploads/Legartad.jpg"
+      image: "https://drive.google.com/file/d/1A32RD-KPSN4Tm9ThWI44jQYeHtrNI8XH/view?usp=sharing"
     },
     {
       id: 6,
@@ -73,7 +73,7 @@ const Portfolio = () => {
       description: "1 MW solar power facility with complete civil engineering  including site grading, drainage, and landscaping.",
       scope: ["Foundation Design", "Utility Integration", "Environmental Controls", "Access Systems", "Safety Features"],
       status: "Completed",
-      image: "/public/lovable-uploads/meyer farms 1.jpg"
+      image: "https://drive.google.com/file/d/1WQ5lGfZkZo6nFnf_cw2SOw0Vb_XwcX21/view?usp=sharing"
     }
   ];
 
