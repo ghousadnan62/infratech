@@ -29,6 +29,27 @@ const Home = () => {
     { number: "24/7", label: "Support Available" },
   ];
 
+  // Slideshow images
+  const slideshowImages = [
+    "/1.png",
+    "/3.png",
+    "/4.png",
+    "/5.png",
+    "/6.png",
+    "/7.png",
+    "/8.png",
+    "/9.png"
+    
+  ];
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % slideshowImages.length);
+    }, 5000); // 5 seconds
+    return () => clearInterval(interval);
+  }, [slideshowImages.length]);
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
