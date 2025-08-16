@@ -23,7 +23,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="lovable-uploads/c8902c12-8420-4005-8cfd-f9a343563d56.png" 
+              src="/logo.png" // Update this line
               alt="InfraTech Global Solutions" 
               className="h-12 w-auto"
             />
