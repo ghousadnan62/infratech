@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <img 
-              src="lovable-uploads/c8902c12-8420-4005-8cfd-f9a343563d56.png" 
+              src="/logo.png" 
               alt="InfraTech Global Solutions" 
               className="h-12 w-auto"
             />
