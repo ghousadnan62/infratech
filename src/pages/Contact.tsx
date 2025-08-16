@@ -62,12 +62,6 @@ const Contact = () => {
 
   const contactInfo = [
     {
-      icon: Phone,
-      //title: "Phone",
-      details: "(555) 123-4567",
-      description: "Call us for immediate assistance"
-    },
-    {
       icon: Mail,
       //title: "Email",
       details: "info@infratechglobalsolutions.com",
@@ -119,7 +113,7 @@ const Contact = () => {
       {/* Contact Information */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
             {contactInfo.map((info, index) => (
               <Card key={index} className="text-center h-full hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-6">

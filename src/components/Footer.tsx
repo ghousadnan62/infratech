@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <img 
-              src="/logo.png" 
+              src="/infratech/logo.png" 
               alt="InfraTech Global Solutions" 
               className="h-12 w-auto"
             />
@@ -61,10 +61,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-3">
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2 text-blue-400" />
                 <span className="text-gray-300">(555) 123-4567</span>
-              </li>
+              </li> */}
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-blue-400" />
                 <span className="text-gray-300">info@infratechglobalsolutions.com</span>
